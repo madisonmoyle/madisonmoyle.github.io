@@ -1,0 +1,23 @@
+h1 {
+    color: pink;
+    font-size: 96px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid purple;
+    padding-left: 15px;
+    text-align: center;
+    text-shadow: 3px 3px 3px palevioletred;
+    font-family: comic sans ms;
+}
+
+h2 {
+        text-align: left;
+        font-family: comic sans ms;
+        color: purple
+}
+
+img {
+    height: 320px;
+}
