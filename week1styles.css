@@ -3,28 +3,72 @@ h1 {
     font-size: 58px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 5px;
+    margin-left: 0px;
     margin-right: 50px;
-    padding-left: 15px;
+    padding-left: 0px;
     text-align: left;
-    font-family: calibri;
+    text-shadow: white;
 }
 
 h2 {
-        text-align: left;
-        font-family: comic sans ms;
-        color: purple
+    font-size: 36px;    
+    font-weight: bold;
+    color: black;
+    text-align: center;
 }
 
-h1, h2 {
+h3 {
+    font-size: 36px;    
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h1, h2, h3 {
     font-family: 'Quicksand', sans-serif;
-}
-
-img {
-    height: 320px;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(kilisunrise.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .columnsection {
+    background-color: #eeeeee;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .bucketlist {
+    background-color: #eeeeee;
+    column-width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .photographycarousel {
+      margin-top: 100px;
+      margin-bottom: 30px;
+  }
+
+  .footer img {
+    width: 100px;
+  }
